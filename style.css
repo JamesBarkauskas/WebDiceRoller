@@ -1,3 +1,40 @@
-h1 {
-    color: green;
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#c0d6e4;
+}
+
+.header {
+    text-align: center;
+    padding-top: 40px;
+    color: #393a44;
+}
+
+.header h1 {
+    padding-bottom: 20px;
+    
+}
+
+.header p {
+    padding-bottom: 20px;
+    
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    background: #393a44;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.players .player-two {
+    padding-top: 10px;
 }

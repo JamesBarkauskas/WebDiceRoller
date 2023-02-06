@@ -6,8 +6,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Dice Roller</title>
         <link rel="stylesheet" href="./style.css">
+        <script src="diceRoller.js"></script>
     </head>
-    <body>
-        <h1>Hello World</h1>
+    <body onload="RollDice()">
+        
+        <div class="header">
+            <h1>Dice Roller</h1>
+            <p>Users will click the 'Roll Dice' button to get a randomly generated number. The higher number wins the game.</p>
+
+            <button class ="btn" type="button" onclick="RollDice()" autofocus >Roll Dice</button>
+        </div>
+
+        
+
+        <section class="players">
+        <div class="player-one">
+            <h2>Player One</h2>
+            Dice One: <input id="dice" type="text" value="" size="5" disabled>
+        </div>
+
+        <div class="player-two">
+            <h2>Player Two</h2>
+            Dice Two: <input id="dice2" type="text" value="" size="5" disabled>
+        </div>
+        </section>
     </body>
 </html>
