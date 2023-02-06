@@ -38,3 +38,7 @@ body {
 .players .player-two {
     padding-top: 10px;
 }
+
+.players {
+    color: #393a44;
+}
